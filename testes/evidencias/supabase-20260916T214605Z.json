@@ -1,0 +1,63 @@
+{
+  "executado_em_utc": "20260916T214605Z",
+  "ambiente": "Supabase real",
+  "cofre_de_teste": "01ef01d2-b5a6-4c12-8bb1-66b7593e15c6",
+  "resultados": [
+    {
+      "teste": 1,
+      "resultado": "aprovado",
+      "observacao": "Nonces e criptogramas distintos"
+    },
+    {
+      "teste": 2,
+      "resultado": "aprovado",
+      "http": 401
+    },
+    {
+      "teste": 3,
+      "resultado": "aprovado",
+      "registros_cifrados": [
+        {
+          "id": "1964a8ca-936b-423c-92f1-d24c50c6712b",
+          "cofre_id": "01ef01d2-b5a6-4c12-8bb1-66b7593e15c6",
+          "titulo": "Teste A",
+          "usuario": null,
+          "url": null,
+          "nonce": "ydsCM1OjxP/ymflP",
+          "criptograma": "k7ACS8ugOKh12j+z5lPewGjMsJxGrwv8zop3dhr8cZoIZJ/ZKubBMZx/BA==",
+          "etiqueta": "8DJH/nP0DjbeJpcvx///OA==",
+          "criado_em": "2026-09-16T21:46:07.215775+00:00",
+          "atualizado_em": "2026-09-16T21:46:07.215775+00:00"
+        },
+        {
+          "id": "fc75219a-1390-4693-b4b3-dc90043683e2",
+          "cofre_id": "01ef01d2-b5a6-4c12-8bb1-66b7593e15c6",
+          "titulo": "Teste B",
+          "usuario": null,
+          "url": null,
+          "nonce": "Taovuas3vnz/ulsr",
+          "criptograma": "sjgxCrrGtAi3NEd7wKI8MAU91RIW0QMyGJR0X9NE2C4dZOvC65zjEHJbOw==",
+          "etiqueta": "vZLsgpbZNGTSfJjNxnj34w==",
+          "criado_em": "2026-09-16T21:46:08.271462+00:00",
+          "atualizado_em": "2026-09-16T21:46:08.271462+00:00"
+        }
+      ]
+    },
+    {
+      "teste": 4,
+      "resultado": "aprovado",
+      "http": 500
+    },
+    {
+      "teste": 5,
+      "resultado": "aprovado",
+      "http": 500
+    },
+    {
+      "teste": "rotas adicionais",
+      "resultado": "aprovado"
+    }
+  ],
+  "limpeza": "cofre de teste removido com seus segredos",
+  "erro": null
+}
